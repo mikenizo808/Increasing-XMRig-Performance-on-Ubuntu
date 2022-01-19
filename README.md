@@ -129,20 +129,20 @@ By default the `rdmsr` and `wrmsr` are set to `true`, so we change them to `fals
 
 *Note: Remember that to use this means that we did the settings already for `msr` since rebooting (i.e. by running `randomx_boost.sh` as `sudo`). Then we can tell `xmrig`, I got this yo, by using a config like the one below.*
 
-{
+    {
 
-    "randomx": {
-        "init": -1,
-        "init-avx2": -1,
-        "mode": "auto",
-        "1gb-pages": true,
-        "rdmsr": false,
-        "wrmsr": false,
-        "cache_qos": false,
-        "numa": true,
-        "scratchpad_prefetch_mode": 1
+        "randomx": {
+            "init": -1,
+            "init-avx2": -1,
+            "mode": "auto",
+            "1gb-pages": true,
+            "rdmsr": false,
+            "wrmsr": false,
+            "cache_qos": false,
+            "numa": true,
+            "scratchpad_prefetch_mode": 1
+        }
     }
-}
 
 *Note: Save the above as `config.jason` and place it into your `xmrig` directory*.
 
