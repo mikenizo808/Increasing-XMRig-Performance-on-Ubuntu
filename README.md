@@ -15,7 +15,7 @@ Here is all of them in one place. As we go through the guide, we also give each 
 
 ## Credit
 Thanks to `github` user `@DeeDeeRange` for her comment on avoiding benign `msr` errors:
-https://github.com/xmrig/xmrig/issues/1973.*
+https://github.com/xmrig/xmrig/issues/1973.
 
 ## Basic Build
 If you do not have a system up and running already, start here first and get Ubuntu all ready:
