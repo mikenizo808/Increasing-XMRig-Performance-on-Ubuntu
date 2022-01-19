@@ -46,7 +46,7 @@ Set to recommended `1280` pages. This is permanent and only needs to be added on
 *Note: Now, the next time you run `xmrig`, you will see huge page support listed at startup.*
 
 ## Configure 1GB huge pages
-Even though we have `hugepages` setup, we can still get additional performance by also enabling `1GB pages`. YOu will also notice that until yo udo this, your startup sequence in `xmrig` will remind you that `1gb paging` is not configured yet.
+Even though we have `hugepages` setup, we can still get additional performance by also enabling `1GB pages`. You will also notice that until yo udo this, your startup sequence in `xmrig` will remind you that `1gb paging` is not configured yet.
 
 We can activate this setting by echoing a `3` into `nr_hugepages` (default is `0`), but finding the directory could be tricky the first time so download and run the script:
 
