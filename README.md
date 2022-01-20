@@ -162,4 +162,4 @@ Now your hashrate is still sky high, and no more `msr` errors! Also, you are not
 *Tip: If in doubt, or you just do not care, you can always just run `xmrig` as `sudo` and the `msr` will be handled automatically by default.  However, now you know how to get the best of both worlds (security and high hashrate).*
 
 ## Summary
-In this write-up we walked through some techniques to increase performance of `xmrig` mining on `Ubuntu`. By following these steps, my hasrate went from 4000 to 8000, though your results will vary.  Have fun!
+In this write-up we walked through some techniques to increase performance of `xmrig` mining on `Ubuntu`. By following these steps, my hashrate went from 4000 to 8000, though your results will vary.  Have fun!
